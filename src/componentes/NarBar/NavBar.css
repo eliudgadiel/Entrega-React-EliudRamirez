@@ -2,7 +2,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(/src/assets/img/perchero.jpg);
+    background-image: url(/public/img/perchero.jpg);
     height: 400px;
     background-repeat:  round;
 }
