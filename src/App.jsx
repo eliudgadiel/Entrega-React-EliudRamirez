@@ -7,7 +7,7 @@ function App() {
   return (
     <>
        <NavBar/>
-       <ItemListContainer greenting = {"BIENVENIDO A LOOK FASHION"}/>
+       <ItemListContainer greeting = {"BIENVENIDO A LOOK FASHION"}/>
     </>
   )
 }
