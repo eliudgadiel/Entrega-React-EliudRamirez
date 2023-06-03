@@ -1,0 +1,7 @@
+.ItemListContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   height: 350px;
+   background: linear-gradient(90deg, rgba(208,170,148,0.9651932061887255) 0%, rgba(120,41,41,0.5002072117909664) 100%)
+}
