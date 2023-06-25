@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <header>
-      <Link to={"/"}>
+      <Link className="logo" to={"/"}>
         <h1 className="look">
           LOOK <br /> <span className="fashion">FASHION </span>
         </h1>
@@ -14,13 +14,13 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to={"/"}>INICIO</NavLink>
+            <NavLink className="menu" to={"/"}>INICIO</NavLink>
           </li>
           <li>
-            <NavLink to={"/categoria/1"}>HOMBRE</NavLink>
+            <NavLink className="menu" to={"/categoria/1"}>HOMBRE</NavLink>
           </li>
           <li>
-            <NavLink to={"/categoria/2"}>MUJER</NavLink>
+            <NavLink className="menu" to={"/categoria/2"}>MUJER</NavLink>
           </li>
         </ul>
       </nav>

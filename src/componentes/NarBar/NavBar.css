@@ -8,11 +8,26 @@ header{
     
 }
 
+.menu{
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    color: whitesmoke ;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+}
+
+
 nav{
   margin-left: 370px;
 }
 
 li{
+    text-decoration: none;
     display: inline-block;
     margin: 0.5rem;
     cursor: pointer;
@@ -25,6 +40,7 @@ h1{
     margin-left: 40px;
             font-size: 4em;
             font-size: 3em;
+           text-decoration: none; 
            
 }
 
