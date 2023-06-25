@@ -5,6 +5,7 @@ header{
     background-image: url(/public/img/perchero.jpg);
     height: 400px;
     background-repeat:  round;
+    
 }
 
 nav{
@@ -24,6 +25,12 @@ h1{
     margin-left: 40px;
             font-size: 4em;
             font-size: 3em;
+           
+}
+
+.look{
+    cursor: pointer;
+   
 }
 
 .fashion{
@@ -31,6 +38,8 @@ h1{
 height: 20px;
 margin-left: 80px;
 align-items: center;
+cursor: pointer;
+
 }
 
 .tienda-online{
