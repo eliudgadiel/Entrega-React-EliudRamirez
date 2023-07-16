@@ -1,20 +1,28 @@
+/* eslint-disable no-unexpected-multiline */
+/* eslint-disable no-undef */
 import "./ItemListContainer.css";
 import { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
-import { getProductos, getProductoPorCategoria } from "../../asyncmock";
 import { useParams } from "react-router-dom";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from '../../services/config'
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
   const { idCategoria } = useParams();
 
   useEffect(() => {
-    const funcionProductos = idCategoria
-      ? getProductoPorCategoria
-      : getProductos;
+    const misProductos = idCategoria ? query
+    (collection(db, "inventario"),where("idCat", "==", idCategoria)) : collection(db, "inventario");
 
-    funcionProductos(idCategoria)
-      .then((res) => setProductos(res))
+    getDocs(misProductos)
+    .then( res => {
+      const nuevoProductos = res.docs.map(doc => {
+        const data = doc.data();
+        return {id: doc.id, ...data}
+      })
+      setProductos(nuevoProductos)
+    })
       .catch((error) => console.log(error));
   }, [idCategoria]);
 

@@ -1,0 +1,106 @@
+.carritoCompra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+ 
+  
+  .carritoCompra__mensaje {
+    margin-bottom: 20px;
+  }
+  
+  .carritoCompra__link {
+    text-decoration: none;
+    background-color:black;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .carritoCompra__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .carritoCompra__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .carritoCompra__itemImg {
+    width: 150px;
+    height: 150px;
+    object-fit:contain;
+  }
+  
+  .carritoCompra__itemInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carritoCompra__itemNombre {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .carritoCompra__itemPrecio {
+    margin-bottom: 5px;
+  }
+  
+  .carritoCompra__itemCantidad {
+    margin-bottom: 5px;
+  }
+  
+  .carritoCompra__itemEliminar {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+  .carritoCompra__resumen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carritoCompra__total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .carritoCompra__cantidadTotal {
+    margin-bottom: 20px;
+  }
+  
+  .carritoCompra__vaciarCarrito {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:7px;
+  }
+  
+  .carritoCompra__finalizarCompra {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin:7px;
+  }
+  
+
+ 

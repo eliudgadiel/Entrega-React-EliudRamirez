@@ -1,9 +1,31 @@
-.imgCarrito{
-   height: 4rem;
-   cursor: pointer;
-}
-
-.carrito{
+.carrito {
+    position: relative;
     margin-right: 100px;
-    margin-top: 300px;
-}
+    margin-top: 350px;
+  }
+  
+  .imgCarrito {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .imgCarrito:hover {
+    opacity: 0.8;
+  }
+  
+  .carrito strong {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  

@@ -5,11 +5,11 @@
     box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 40px;
-    cursor: pointer;
     background-color: white;
     text-align: center;
     display: flex;
     align-items: center;
+    word-spacing: 1px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
 }
 
 .imgDetail{
@@ -19,4 +19,31 @@
 
 .itemDetail{
     line-height: 25px;
+}
+.seguirComprando{ 
+color: white;
+background-color: black;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.seguirComprando2{
+    padding-top: 25px;
+}
+
+.terminarCompra{
+    color: white;
+background-color: black;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+text-decoration: none;
+
+}
+.terminarCompra2{
+    padding-top: 15px;
 }

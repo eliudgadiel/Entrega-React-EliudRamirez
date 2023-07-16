@@ -6,3 +6,6 @@
 :root{
     font-family: 'Anton', sans-serif;
 }
+body{
+    background: linear-gradient(90deg, rgba(208, 170, 148, 0.965) 0%, rgba(120, 41, 41, 0.5) 100%);
+  }

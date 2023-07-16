@@ -1,0 +1,54 @@
+.botonCompra{
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 10px 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 8px;
+        color: white;
+        background-color: black;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 30px;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        
+       
+   
+}
+
+.botonCompra2{
+   padding-bottom: 15px;
+}
+
+ .contador{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: grey;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+     
+ }
+
+ .sumar{
+padding: 3px;
+cursor: pointer;
+border-radius: 20px;
+
+
+ }
+
+ .restar{
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+ }
